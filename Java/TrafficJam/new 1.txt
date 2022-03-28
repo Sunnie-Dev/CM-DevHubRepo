@@ -1,0 +1,71 @@
+public void RedMoves(ArrayList<TeamMember> board,  int redTeamCount) {
+		
+		
+		Boolean walk = true; // Player can only WALK ONCE per Turn
+		TeamMember currentPlayer = new TeamMember();
+		int tempPos = 0; 
+	
+		int i = redTeamCount-1;
+
+		 while (i >= 0){  //Lets check if any players can walk or jump
+			//TRY WALK first
+			 currentPlayer= (TeamMember) RedTeam.get(i);  // To reduce the complexity time and space;
+			 if (currentPlayer.Pos+1 == moveBlank.Pos && walk == false) { // There is a free empty pace to walk to First time only
+				 tempPos = currentPlayer.Pos; // Start swap
+				 currentPlayer.Pos = moveBlank.Pos; //player moves to the blank space
+				 moveBlank.Pos = tempPos; //Swap done
+				 walk = false; // player used up his walk for the turn	
+				 board.set(currentPlayer.Pos, currentPlayer); //update game board
+				 board.set(moveBlank.Pos, moveBlank);
+				 System.out.println(currentPlayer.Name+" walks to position "+currentPlayer.Pos+". A Space open now at pos "+moveBlank.Pos);
+				    
+			 }
+			 else  //TRY TO JUMP	
+				 if (currentPlayer.Pos+2 == moveBlank.Pos && currentPlayer.Color !=board.get((currentPlayer.Pos)+1).Color) { // jump Only if the player in front of you is not the same color
+					 tempPos = currentPlayer.Pos; // Start swap
+					 currentPlayer.Pos = moveBlank.Pos; //player moves to the blank space
+					 moveBlank.Pos = tempPos; //Swap done	
+					 board.set(currentPlayer.Pos, currentPlayer); // update game board
+					 board.set(moveBlank.Pos, moveBlank);
+					 System.out.println(currentPlayer.Name+" JUMPS to position "+currentPlayer.Pos+". A Space open now at pos "+moveBlank.Pos);
+			 }
+			 RedTeam.set(i, currentPlayer);			
+			 i--;
+		}
+				 
+	}
+	
+	public void BlueMoves(ArrayList<TeamMember> board, int blueTeamCount) {
+		Boolean walk = false; // Player can only WALK ONCE per Turn
+		TeamMember currentPlayer = new TeamMember();
+		int tempPos = 0; 
+	
+		int i = blueTeamCount-1;
+
+		while (i >= 0 ){  //Lets check if any players can walk or jump
+		//TRY WALK first
+			currentPlayer= (TeamMember) BlueTeam.get(i);  // To reduce the complexity time and space;
+			if (currentPlayer.Pos-1 == moveBlank.Pos && walk == false) { // There is a free empty pace to walk to First time only
+				tempPos = currentPlayer.Pos; // Start swap
+				currentPlayer.Pos = moveBlank.Pos; //player moves to the blank space
+				moveBlank.Pos = tempPos; //Swap done
+				 board.set(currentPlayer.Pos, currentPlayer); //update game board
+				 board.set(moveBlank.Pos, moveBlank);
+				walk = true; // player used up his walk for the turn	
+				System.out.println(currentPlayer.Name+" walks to position "+currentPlayer.Pos+". A Space open now at pos  "+moveBlank.Pos);
+				
+			}
+			else  //TRY TO JUMP	
+				if (currentPlayer.Pos- 2 == moveBlank.Pos && currentPlayer.Color != board.get(moveBlank.Pos+1).Color) { // jump only if the person in front of you is not on your team
+					tempPos = currentPlayer.Pos; // Start swap
+					currentPlayer.Pos = moveBlank.Pos; //player moves to the blank space
+					moveBlank.Pos = tempPos; //Swap done
+					 board.set(currentPlayer.Pos, currentPlayer); //update game board
+					 board.set(moveBlank.Pos, moveBlank);
+					System.out.println(currentPlayer.Name+" JUMPS to position "+currentPlayer.Pos+". A space open now at pos "+moveBlank.Pos);
+				}
+			//Update the Blue team
+			BlueTeam.set(i, currentPlayer);
+			i--;
+		}
+	}

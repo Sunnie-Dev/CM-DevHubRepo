@@ -1,0 +1,549 @@
+Date Time : 2022-02-20Time : 15:23:14.185996200
+ Traffic Jam Solution - Log- Casey Munga
+             BOARD IS SET 
+
+    Player: R0| Team RED | Game board position 0
+    Player: R1| Team RED | Game board position 1
+    Player: R2| Team RED | Game board position 2
+    Player: R3| Team RED | Game board position 3
+    Player: R4| Team RED | Game board position 4
+    Player: Empty| Team Empty | Game board position 5
+    Player: B4| Team BLUE | Game board position 6
+    Player: B3| Team BLUE | Game board position 7
+    Player: B2| Team BLUE | Game board position 8
+    Player: B1| Team BLUE | Game board position 9
+    Player: B0| Team BLUE | Game board position 10
+
+ RED Team Turn 1
+
+ R4 walks to position 5. A Space open now at pos 4
+
+    Player: R0| Team RED | Game board position 0
+    Player: R1| Team RED | Game board position 1
+    Player: R2| Team RED | Game board position 2
+    Player: R3| Team RED | Game board position 3
+    Player: Empty| Team Empty | Game board position 4
+    Player: R4| Team RED | Game board position 5
+    Player: B4| Team BLUE | Game board position 6
+    Player: B3| Team BLUE | Game board position 7
+    Player: B2| Team BLUE | Game board position 8
+    Player: B1| Team BLUE | Game board position 9
+    Player: B0| Team BLUE | Game board position 10
+
+ 
+ BLUE Team Turn 1
+
+ B4 Jumps to position 4. A Space open now at pos 6
+
+    Player: R0| Team RED | Game board position 0
+    Player: R1| Team RED | Game board position 1
+    Player: R2| Team RED | Game board position 2
+    Player: R3| Team RED | Game board position 3
+    Player: B4| Team BLUE | Game board position 4
+    Player: R4| Team RED | Game board position 5
+    Player: Empty| Team Empty | Game board position 6
+    Player: B3| Team BLUE | Game board position 7
+    Player: B2| Team BLUE | Game board position 8
+    Player: B1| Team BLUE | Game board position 9
+    Player: B0| Team BLUE | Game board position 10
+
+ B3 walks to position 6. A Space open now at pos 7
+
+    Player: R0| Team RED | Game board position 0
+    Player: R1| Team RED | Game board position 1
+    Player: R2| Team RED | Game board position 2
+    Player: R3| Team RED | Game board position 3
+    Player: B4| Team BLUE | Game board position 4
+    Player: R4| Team RED | Game board position 5
+    Player: B3| Team BLUE | Game board position 6
+    Player: Empty| Team Empty | Game board position 7
+    Player: B2| Team BLUE | Game board position 8
+    Player: B1| Team BLUE | Game board position 9
+    Player: B0| Team BLUE | Game board position 10
+
+ RED Team Turn 2
+
+ R4 Jumps to position 7. A Space open now at pos 5
+
+    Player: R0| Team RED | Game board position 0
+    Player: R1| Team RED | Game board position 1
+    Player: R2| Team RED | Game board position 2
+    Player: R3| Team RED | Game board position 3
+    Player: B4| Team BLUE | Game board position 4
+    Player: Empty| Team Empty | Game board position 5
+    Player: B3| Team BLUE | Game board position 6
+    Player: R4| Team RED | Game board position 7
+    Player: B2| Team BLUE | Game board position 8
+    Player: B1| Team BLUE | Game board position 9
+    Player: B0| Team BLUE | Game board position 10
+
+ R3 Jumps to position 5. A Space open now at pos 3
+
+    Player: R0| Team RED | Game board position 0
+    Player: R1| Team RED | Game board position 1
+    Player: R2| Team RED | Game board position 2
+    Player: Empty| Team Empty | Game board position 3
+    Player: B4| Team BLUE | Game board position 4
+    Player: R3| Team RED | Game board position 5
+    Player: B3| Team BLUE | Game board position 6
+    Player: R4| Team RED | Game board position 7
+    Player: B2| Team BLUE | Game board position 8
+    Player: B1| Team BLUE | Game board position 9
+    Player: B0| Team BLUE | Game board position 10
+
+ R2 walks to position 3. A Space open now at pos 2
+
+    Player: R0| Team RED | Game board position 0
+    Player: R1| Team RED | Game board position 1
+    Player: Empty| Team Empty | Game board position 2
+    Player: R2| Team RED | Game board position 3
+    Player: B4| Team BLUE | Game board position 4
+    Player: R3| Team RED | Game board position 5
+    Player: B3| Team BLUE | Game board position 6
+    Player: R4| Team RED | Game board position 7
+    Player: B2| Team BLUE | Game board position 8
+    Player: B1| Team BLUE | Game board position 9
+    Player: B0| Team BLUE | Game board position 10
+
+ 
+ BLUE Team Turn 2
+
+ B4 Jumps to position 2. A Space open now at pos 4
+
+    Player: R0| Team RED | Game board position 0
+    Player: R1| Team RED | Game board position 1
+    Player: B4| Team BLUE | Game board position 2
+    Player: R2| Team RED | Game board position 3
+    Player: Empty| Team Empty | Game board position 4
+    Player: R3| Team RED | Game board position 5
+    Player: B3| Team BLUE | Game board position 6
+    Player: R4| Team RED | Game board position 7
+    Player: B2| Team BLUE | Game board position 8
+    Player: B1| Team BLUE | Game board position 9
+    Player: B0| Team BLUE | Game board position 10
+
+ B3 Jumps to position 4. A Space open now at pos 6
+
+    Player: R0| Team RED | Game board position 0
+    Player: R1| Team RED | Game board position 1
+    Player: B4| Team BLUE | Game board position 2
+    Player: R2| Team RED | Game board position 3
+    Player: B3| Team BLUE | Game board position 4
+    Player: R3| Team RED | Game board position 5
+    Player: Empty| Team Empty | Game board position 6
+    Player: R4| Team RED | Game board position 7
+    Player: B2| Team BLUE | Game board position 8
+    Player: B1| Team BLUE | Game board position 9
+    Player: B0| Team BLUE | Game board position 10
+
+ B2 Jumps to position 6. A Space open now at pos 8
+
+    Player: R0| Team RED | Game board position 0
+    Player: R1| Team RED | Game board position 1
+    Player: B4| Team BLUE | Game board position 2
+    Player: R2| Team RED | Game board position 3
+    Player: B3| Team BLUE | Game board position 4
+    Player: R3| Team RED | Game board position 5
+    Player: B2| Team BLUE | Game board position 6
+    Player: R4| Team RED | Game board position 7
+    Player: Empty| Team Empty | Game board position 8
+    Player: B1| Team BLUE | Game board position 9
+    Player: B0| Team BLUE | Game board position 10
+
+ B1 walks to position 8. A Space open now at pos 9
+
+    Player: R0| Team RED | Game board position 0
+    Player: R1| Team RED | Game board position 1
+    Player: B4| Team BLUE | Game board position 2
+    Player: R2| Team RED | Game board position 3
+    Player: B3| Team BLUE | Game board position 4
+    Player: R3| Team RED | Game board position 5
+    Player: B2| Team BLUE | Game board position 6
+    Player: R4| Team RED | Game board position 7
+    Player: B1| Team BLUE | Game board position 8
+    Player: Empty| Team Empty | Game board position 9
+    Player: B0| Team BLUE | Game board position 10
+
+ RED Team Turn 3
+
+ R4 Jumps to position 9. A Space open now at pos 7
+
+    Player: R0| Team RED | Game board position 0
+    Player: R1| Team RED | Game board position 1
+    Player: B4| Team BLUE | Game board position 2
+    Player: R2| Team RED | Game board position 3
+    Player: B3| Team BLUE | Game board position 4
+    Player: R3| Team RED | Game board position 5
+    Player: B2| Team BLUE | Game board position 6
+    Player: Empty| Team Empty | Game board position 7
+    Player: B1| Team BLUE | Game board position 8
+    Player: R4| Team RED | Game board position 9
+    Player: B0| Team BLUE | Game board position 10
+
+ R3 Jumps to position 7. A Space open now at pos 5
+
+    Player: R0| Team RED | Game board position 0
+    Player: R1| Team RED | Game board position 1
+    Player: B4| Team BLUE | Game board position 2
+    Player: R2| Team RED | Game board position 3
+    Player: B3| Team BLUE | Game board position 4
+    Player: Empty| Team Empty | Game board position 5
+    Player: B2| Team BLUE | Game board position 6
+    Player: R3| Team RED | Game board position 7
+    Player: B1| Team BLUE | Game board position 8
+    Player: R4| Team RED | Game board position 9
+    Player: B0| Team BLUE | Game board position 10
+
+ R2 Jumps to position 5. A Space open now at pos 3
+
+    Player: R0| Team RED | Game board position 0
+    Player: R1| Team RED | Game board position 1
+    Player: B4| Team BLUE | Game board position 2
+    Player: Empty| Team Empty | Game board position 3
+    Player: B3| Team BLUE | Game board position 4
+    Player: R2| Team RED | Game board position 5
+    Player: B2| Team BLUE | Game board position 6
+    Player: R3| Team RED | Game board position 7
+    Player: B1| Team BLUE | Game board position 8
+    Player: R4| Team RED | Game board position 9
+    Player: B0| Team BLUE | Game board position 10
+
+ R1 Jumps to position 3. A Space open now at pos 1
+
+    Player: R0| Team RED | Game board position 0
+    Player: Empty| Team Empty | Game board position 1
+    Player: B4| Team BLUE | Game board position 2
+    Player: R1| Team RED | Game board position 3
+    Player: B3| Team BLUE | Game board position 4
+    Player: R2| Team RED | Game board position 5
+    Player: B2| Team BLUE | Game board position 6
+    Player: R3| Team RED | Game board position 7
+    Player: B1| Team BLUE | Game board position 8
+    Player: R4| Team RED | Game board position 9
+    Player: B0| Team BLUE | Game board position 10
+
+ R0 walks to position 1. A Space open now at pos 0
+
+    Player: Empty| Team Empty | Game board position 0
+    Player: R0| Team RED | Game board position 1
+    Player: B4| Team BLUE | Game board position 2
+    Player: R1| Team RED | Game board position 3
+    Player: B3| Team BLUE | Game board position 4
+    Player: R2| Team RED | Game board position 5
+    Player: B2| Team BLUE | Game board position 6
+    Player: R3| Team RED | Game board position 7
+    Player: B1| Team BLUE | Game board position 8
+    Player: R4| Team RED | Game board position 9
+    Player: B0| Team BLUE | Game board position 10
+
+ 
+ BLUE Team Turn 3
+
+ B4 Jumps to position 0. A Space open now at pos 2
+
+    Player: B4| Team BLUE | Game board position 0
+    Player: R0| Team RED | Game board position 1
+    Player: Empty| Team Empty | Game board position 2
+    Player: R1| Team RED | Game board position 3
+    Player: B3| Team BLUE | Game board position 4
+    Player: R2| Team RED | Game board position 5
+    Player: B2| Team BLUE | Game board position 6
+    Player: R3| Team RED | Game board position 7
+    Player: B1| Team BLUE | Game board position 8
+    Player: R4| Team RED | Game board position 9
+    Player: B0| Team BLUE | Game board position 10
+
+ B3 Jumps to position 2. A Space open now at pos 4
+
+    Player: B4| Team BLUE | Game board position 0
+    Player: R0| Team RED | Game board position 1
+    Player: B3| Team BLUE | Game board position 2
+    Player: R1| Team RED | Game board position 3
+    Player: Empty| Team Empty | Game board position 4
+    Player: R2| Team RED | Game board position 5
+    Player: B2| Team BLUE | Game board position 6
+    Player: R3| Team RED | Game board position 7
+    Player: B1| Team BLUE | Game board position 8
+    Player: R4| Team RED | Game board position 9
+    Player: B0| Team BLUE | Game board position 10
+
+ B2 Jumps to position 4. A Space open now at pos 6
+
+    Player: B4| Team BLUE | Game board position 0
+    Player: R0| Team RED | Game board position 1
+    Player: B3| Team BLUE | Game board position 2
+    Player: R1| Team RED | Game board position 3
+    Player: B2| Team BLUE | Game board position 4
+    Player: R2| Team RED | Game board position 5
+    Player: Empty| Team Empty | Game board position 6
+    Player: R3| Team RED | Game board position 7
+    Player: B1| Team BLUE | Game board position 8
+    Player: R4| Team RED | Game board position 9
+    Player: B0| Team BLUE | Game board position 10
+
+ B1 Jumps to position 6. A Space open now at pos 8
+
+    Player: B4| Team BLUE | Game board position 0
+    Player: R0| Team RED | Game board position 1
+    Player: B3| Team BLUE | Game board position 2
+    Player: R1| Team RED | Game board position 3
+    Player: B2| Team BLUE | Game board position 4
+    Player: R2| Team RED | Game board position 5
+    Player: B1| Team BLUE | Game board position 6
+    Player: R3| Team RED | Game board position 7
+    Player: Empty| Team Empty | Game board position 8
+    Player: R4| Team RED | Game board position 9
+    Player: B0| Team BLUE | Game board position 10
+
+ B0 Jumps to position 8. A Space open now at pos 10
+
+    Player: B4| Team BLUE | Game board position 0
+    Player: R0| Team RED | Game board position 1
+    Player: B3| Team BLUE | Game board position 2
+    Player: R1| Team RED | Game board position 3
+    Player: B2| Team BLUE | Game board position 4
+    Player: R2| Team RED | Game board position 5
+    Player: B1| Team BLUE | Game board position 6
+    Player: R3| Team RED | Game board position 7
+    Player: B0| Team BLUE | Game board position 8
+    Player: R4| Team RED | Game board position 9
+    Player: Empty| Team Empty | Game board position 10
+
+ RED Team Turn 4
+
+ R4 walks to position 10. A Space open now at pos 9
+
+    Player: B4| Team BLUE | Game board position 0
+    Player: R0| Team RED | Game board position 1
+    Player: B3| Team BLUE | Game board position 2
+    Player: R1| Team RED | Game board position 3
+    Player: B2| Team BLUE | Game board position 4
+    Player: R2| Team RED | Game board position 5
+    Player: B1| Team BLUE | Game board position 6
+    Player: R3| Team RED | Game board position 7
+    Player: B0| Team BLUE | Game board position 8
+    Player: Empty| Team Empty | Game board position 9
+    Player: R4| Team RED | Game board position 10
+
+ R3 Jumps to position 9. A Space open now at pos 7
+
+    Player: B4| Team BLUE | Game board position 0
+    Player: R0| Team RED | Game board position 1
+    Player: B3| Team BLUE | Game board position 2
+    Player: R1| Team RED | Game board position 3
+    Player: B2| Team BLUE | Game board position 4
+    Player: R2| Team RED | Game board position 5
+    Player: B1| Team BLUE | Game board position 6
+    Player: Empty| Team Empty | Game board position 7
+    Player: B0| Team BLUE | Game board position 8
+    Player: R3| Team RED | Game board position 9
+    Player: R4| Team RED | Game board position 10
+
+ R2 Jumps to position 7. A Space open now at pos 5
+
+    Player: B4| Team BLUE | Game board position 0
+    Player: R0| Team RED | Game board position 1
+    Player: B3| Team BLUE | Game board position 2
+    Player: R1| Team RED | Game board position 3
+    Player: B2| Team BLUE | Game board position 4
+    Player: Empty| Team Empty | Game board position 5
+    Player: B1| Team BLUE | Game board position 6
+    Player: R2| Team RED | Game board position 7
+    Player: B0| Team BLUE | Game board position 8
+    Player: R3| Team RED | Game board position 9
+    Player: R4| Team RED | Game board position 10
+
+ R1 Jumps to position 5. A Space open now at pos 3
+
+    Player: B4| Team BLUE | Game board position 0
+    Player: R0| Team RED | Game board position 1
+    Player: B3| Team BLUE | Game board position 2
+    Player: Empty| Team Empty | Game board position 3
+    Player: B2| Team BLUE | Game board position 4
+    Player: R1| Team RED | Game board position 5
+    Player: B1| Team BLUE | Game board position 6
+    Player: R2| Team RED | Game board position 7
+    Player: B0| Team BLUE | Game board position 8
+    Player: R3| Team RED | Game board position 9
+    Player: R4| Team RED | Game board position 10
+
+ R0 Jumps to position 3. A Space open now at pos 1
+
+    Player: B4| Team BLUE | Game board position 0
+    Player: Empty| Team Empty | Game board position 1
+    Player: B3| Team BLUE | Game board position 2
+    Player: R0| Team RED | Game board position 3
+    Player: B2| Team BLUE | Game board position 4
+    Player: R1| Team RED | Game board position 5
+    Player: B1| Team BLUE | Game board position 6
+    Player: R2| Team RED | Game board position 7
+    Player: B0| Team BLUE | Game board position 8
+    Player: R3| Team RED | Game board position 9
+    Player: R4| Team RED | Game board position 10
+
+ 
+ BLUE Team Turn 4
+
+ B3 walks to position 1. A Space open now at pos 2
+
+    Player: B4| Team BLUE | Game board position 0
+    Player: B3| Team BLUE | Game board position 1
+    Player: Empty| Team Empty | Game board position 2
+    Player: R0| Team RED | Game board position 3
+    Player: B2| Team BLUE | Game board position 4
+    Player: R1| Team RED | Game board position 5
+    Player: B1| Team BLUE | Game board position 6
+    Player: R2| Team RED | Game board position 7
+    Player: B0| Team BLUE | Game board position 8
+    Player: R3| Team RED | Game board position 9
+    Player: R4| Team RED | Game board position 10
+
+ B2 Jumps to position 2. A Space open now at pos 4
+
+    Player: B4| Team BLUE | Game board position 0
+    Player: B3| Team BLUE | Game board position 1
+    Player: B2| Team BLUE | Game board position 2
+    Player: R0| Team RED | Game board position 3
+    Player: Empty| Team Empty | Game board position 4
+    Player: R1| Team RED | Game board position 5
+    Player: B1| Team BLUE | Game board position 6
+    Player: R2| Team RED | Game board position 7
+    Player: B0| Team BLUE | Game board position 8
+    Player: R3| Team RED | Game board position 9
+    Player: R4| Team RED | Game board position 10
+
+ B1 Jumps to position 4. A Space open now at pos 6
+
+    Player: B4| Team BLUE | Game board position 0
+    Player: B3| Team BLUE | Game board position 1
+    Player: B2| Team BLUE | Game board position 2
+    Player: R0| Team RED | Game board position 3
+    Player: B1| Team BLUE | Game board position 4
+    Player: R1| Team RED | Game board position 5
+    Player: Empty| Team Empty | Game board position 6
+    Player: R2| Team RED | Game board position 7
+    Player: B0| Team BLUE | Game board position 8
+    Player: R3| Team RED | Game board position 9
+    Player: R4| Team RED | Game board position 10
+
+ B0 Jumps to position 6. A Space open now at pos 8
+
+    Player: B4| Team BLUE | Game board position 0
+    Player: B3| Team BLUE | Game board position 1
+    Player: B2| Team BLUE | Game board position 2
+    Player: R0| Team RED | Game board position 3
+    Player: B1| Team BLUE | Game board position 4
+    Player: R1| Team RED | Game board position 5
+    Player: B0| Team BLUE | Game board position 6
+    Player: R2| Team RED | Game board position 7
+    Player: Empty| Team Empty | Game board position 8
+    Player: R3| Team RED | Game board position 9
+    Player: R4| Team RED | Game board position 10
+
+ RED Team Turn 5
+
+ R2 walks to position 8. A Space open now at pos 7
+
+    Player: B4| Team BLUE | Game board position 0
+    Player: B3| Team BLUE | Game board position 1
+    Player: B2| Team BLUE | Game board position 2
+    Player: R0| Team RED | Game board position 3
+    Player: B1| Team BLUE | Game board position 4
+    Player: R1| Team RED | Game board position 5
+    Player: B0| Team BLUE | Game board position 6
+    Player: Empty| Team Empty | Game board position 7
+    Player: R2| Team RED | Game board position 8
+    Player: R3| Team RED | Game board position 9
+    Player: R4| Team RED | Game board position 10
+
+ R1 Jumps to position 7. A Space open now at pos 5
+
+    Player: B4| Team BLUE | Game board position 0
+    Player: B3| Team BLUE | Game board position 1
+    Player: B2| Team BLUE | Game board position 2
+    Player: R0| Team RED | Game board position 3
+    Player: B1| Team BLUE | Game board position 4
+    Player: Empty| Team Empty | Game board position 5
+    Player: B0| Team BLUE | Game board position 6
+    Player: R1| Team RED | Game board position 7
+    Player: R2| Team RED | Game board position 8
+    Player: R3| Team RED | Game board position 9
+    Player: R4| Team RED | Game board position 10
+
+ R0 Jumps to position 5. A Space open now at pos 3
+
+    Player: B4| Team BLUE | Game board position 0
+    Player: B3| Team BLUE | Game board position 1
+    Player: B2| Team BLUE | Game board position 2
+    Player: Empty| Team Empty | Game board position 3
+    Player: B1| Team BLUE | Game board position 4
+    Player: R0| Team RED | Game board position 5
+    Player: B0| Team BLUE | Game board position 6
+    Player: R1| Team RED | Game board position 7
+    Player: R2| Team RED | Game board position 8
+    Player: R3| Team RED | Game board position 9
+    Player: R4| Team RED | Game board position 10
+
+ 
+ BLUE Team Turn 5
+
+ B1 walks to position 3. A Space open now at pos 4
+
+    Player: B4| Team BLUE | Game board position 0
+    Player: B3| Team BLUE | Game board position 1
+    Player: B2| Team BLUE | Game board position 2
+    Player: B1| Team BLUE | Game board position 3
+    Player: Empty| Team Empty | Game board position 4
+    Player: R0| Team RED | Game board position 5
+    Player: B0| Team BLUE | Game board position 6
+    Player: R1| Team RED | Game board position 7
+    Player: R2| Team RED | Game board position 8
+    Player: R3| Team RED | Game board position 9
+    Player: R4| Team RED | Game board position 10
+
+ B0 Jumps to position 4. A Space open now at pos 6
+
+    Player: B4| Team BLUE | Game board position 0
+    Player: B3| Team BLUE | Game board position 1
+    Player: B2| Team BLUE | Game board position 2
+    Player: B1| Team BLUE | Game board position 3
+    Player: B0| Team BLUE | Game board position 4
+    Player: R0| Team RED | Game board position 5
+    Player: Empty| Team Empty | Game board position 6
+    Player: R1| Team RED | Game board position 7
+    Player: R2| Team RED | Game board position 8
+    Player: R3| Team RED | Game board position 9
+    Player: R4| Team RED | Game board position 10
+
+ RED Team Turn 6
+
+ R0 walks to position 6. A Space open now at pos 5
+
+    Player: B4| Team BLUE | Game board position 0
+    Player: B3| Team BLUE | Game board position 1
+    Player: B2| Team BLUE | Game board position 2
+    Player: B1| Team BLUE | Game board position 3
+    Player: B0| Team BLUE | Game board position 4
+    Player: Empty| Team Empty | Game board position 5
+    Player: R0| Team RED | Game board position 6
+    Player: R1| Team RED | Game board position 7
+    Player: R2| Team RED | Game board position 8
+    Player: R3| Team RED | Game board position 9
+    Player: R4| Team RED | Game board position 10
+
+ 
+ BLUE Team Turn 6
+
+        ***** The Game is SOLVED. *********
+
+    Player: B4| Team BLUE | Game board position 0
+    Player: B3| Team BLUE | Game board position 1
+    Player: B2| Team BLUE | Game board position 2
+    Player: B1| Team BLUE | Game board position 3
+    Player: B0| Team BLUE | Game board position 4
+    Player: Empty| Team Empty | Game board position 5
+    Player: R0| Team RED | Game board position 6
+    Player: R1| Team RED | Game board position 7
+    Player: R2| Team RED | Game board position 8
+    Player: R3| Team RED | Game board position 9
+    Player: R4| Team RED | Game board position 10
